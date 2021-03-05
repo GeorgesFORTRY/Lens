@@ -1,0 +1,30 @@
+main { 
+    color: yellow;
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    font-weight: bold;
+    font-size: xxx-large
+    
+}
+
+h1 {
+    font-size: 0.5em ;
+}
+
+img.public {
+    width: 100%;
+}
+
+article {
+    width: 30vw;
+    height:calc (9 / 16 * 30vw);
+    position: relative;
+   
+}
+
+img.player {
+    position: absolute;
+    right: 0;
+    height: 97%;
+}
