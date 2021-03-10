@@ -6,6 +6,7 @@ main {
     font-weight: bold;
     font-size: xxx-large;
     overflow:hidden;
+    text-align: center;
     
 }
 
@@ -20,10 +21,11 @@ img.public {
 
 article {
     width: 30vw;
-    height:calc (9 / 16 * 30vw);
+    height:calc(9 / 16 * 30vw);
     position: relative;
     transform: scale(0.90);
     transition: 0.2s all;
+    border-radius: 10px;
 }
 
 article>* {
@@ -33,7 +35,7 @@ article>* {
 img.player {
     position: absolute;
     left: 0;
-    height: 97%;
+    height: 100%;
     filter: grayscale(1);
 }
 
@@ -50,4 +52,9 @@ article:hover img.player {
 
 article:hover img.public {
     filter: grayscale(1) blur(2px);
+}
+
+footer {
+        justify-content: center;
+        text-align: center;
 }
